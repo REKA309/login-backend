@@ -66,6 +66,7 @@ userEmail:userEmail      });
             return response.status(200).json({
                 success: true,
                 message: "Logged in successfully!!!",
+                userEmail:userEmail
               });
         }
         else{
